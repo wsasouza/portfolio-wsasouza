@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Portfólio | wsasouza</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- menu -->
+    <div class="navigation">
+      <ul>
+        <li><a href="#banner" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+        <li><a href="#services" onclick="toggleMenu()">Serviços</a></li>
+        <li><a href="#project" onclick="toggleMenu()">Projetos</a></li>
+        <li><a href="#testimonials" onclick="toggleMenu()">Testemunhos</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+      </ul>
+      <div class="themeSwitch"></div>
+    </div>
+    <div class="main">
+      <div class="topbar">
+        <a href="#banner" class="logo">
+          <img src="/assets/logo.svg" alt="logo">
+        </a>
+        <div class="toggle">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <!-- banner -->
+      <section class="banner" id="banner">
+        <div class="content">
+          <div class="imgBx">
+            <img src="assets/avatar.png" alt="avatar">
+          </div>
+          <h3>Walter Santos de Andrade Souza</h3>
+          <p>Full Stack Javascript Developer</p>
+          <a href="cv/index.html" class="btn">Download My CV</a>
+          <ul class="socialMedia">
+            <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section class="about adjust" id="about">
+        <div class="title">
+          <h2>About me</h2>
+        </div>
+        <div class="content">
+          <div class="textBox">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor maiores itaque cum, minus alias id, fugit
+              ipsum accusamus deserunt quaerat ut a nisi commodi quisquam, asperiores libero voluptates sed! Enim ea
+              aspernatur vitae eos ad veritatis eum voluptatibus in qui. Doloremque, quo fuga odit fugiat recusandae
+              culpa sed in saepe eos deleniti assumenda consectetur aspernatur qui? Pariatur eveniet totam modi iure
+              iste non sapiente vitae expedita, nulla magni commodi dolor illum doloremque tenetur numquam consequuntur
+              provident! Itaque asperiores totam explicabo recusandae optio unde, ratione necessitatibus voluptates
+              delectus in quis veritatis doloribus eveniet deleniti beatae perspiciatis nulla blanditiis et quos soluta
+              quidem iure voluptatum consectetur dolore. Quos nihil rem tempora voluptates recusandae. Tenetur ut
+              assumenda cumque dolor, aliquid consequatur exercitationem, suscipit doloremque impedit labore illo
+              laborum perspiciatis sit error quibusdam magni officia debitis fuga dolorum voluptatem dolores? Quis
+              dignissimos deserunt.<br><br>Totam qui necessitatibus soluta voluptas aliquid saepe eius sunt itaque ex
+              asperiores, ut repudiandae esse perferendis amet iure accusamus quidem. Et sed deleniti corrupti dolore
+              odio expedita deserunt doloribus autem cum iure aliquam provident aspernatur eos illo, quis eveniet.
+              Molestias, sunt! Repellendus, labore? Cupiditate omnis aspernatur, ut nostrum, architecto quia porro sunt
+              deleniti expedita animi esse aliquam quaerat repudiandae amet illo.</p>
+          </div>
+          <div class="imgBx">
+            <img src="assets/bg1.jpg" alt="me">
+          </div>
+        </div>
+      </section>
+
+      <!-- our services -->
+      <section class="services adjust" id="services">
+        <div class="title">
+          <h2>Our services</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+          <div class="serviceBox">
+            <img src="assets/icon1.png" alt="icon-1">
+            <h2>Web design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ea deserunt animi alias ullam at
+              consequuntur eius rerum.</p>
+          </div>
+          <div class="serviceBox">
+            <img src="assets/icon2.png" alt="icon-2">
+            <h2>Web development</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ea deserunt animi alias ullam at
+              consequuntur eius rerum.</p>
+          </div>
+          <div class="serviceBox">
+            <img src="assets/icon3.png" alt="icon-3">
+            <h2>Android Apps</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ea deserunt animi alias ullam at
+              consequuntur eius rerum.</p>
+          </div>
+          <div class="serviceBox">
+            <img src="assets/icon4.png" alt="icon-4">
+            <h2>Photography</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ea deserunt animi alias ullam at
+              consequuntur eius rerum.</p>
+          </div>
+          <div class="serviceBox">
+            <img src="assets/icon5.png" alt="icon-5">
+            <h2>Content Writing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ea deserunt animi alias ullam at
+              consequuntur eius rerum.</p>
+          </div>
+          <div class="serviceBox">
+            <img src="assets/icon6.png" alt="icon-6">
+            <h2>Video Editing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ea deserunt animi alias ullam at
+              consequuntur eius rerum.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- projects -->
+      <section class="project adjust" id="project">
+        <div class="title">
+          <h2>Recent Work</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+          <div class="workBx">
+            <div class="imgBx">
+              <img src="assets/img1.jpg" alt="produto-1">
+            </div>
+            <div class="textBx">
+              <h3>Project 01</h3>
+            </div>
+          </div>
+          <div class="workBx">
+            <div class="imgBx">
+              <img src="assets/img2.jpg" alt="produto-2">
+            </div>
+            <div class="textBx">
+              <h3>Project 02</h3>
+            </div>
+          </div>
+          <div class="workBx">
+            <div class="imgBx">
+              <img src="assets/img3.jpg" alt="produto-3">
+            </div>
+            <div class="textBx">
+              <h3>Project 03</h3>
+            </div>
+          </div>
+          <div class="workBx">
+            <div class="imgBx">
+              <img src="assets/img4.jpg" alt="produto-4">
+            </div>
+            <div class="textBx">
+              <h3>Project 04</h3>
+            </div>
+          </div>
+          <div class="workBx">
+            <div class="imgBx">
+              <img src="assets/img5.jpg" alt="produto-5">
+            </div>
+            <div class="textBx">
+              <h3>Project 05</h3>
+            </div>
+          </div>
+          <div class="workBx">
+            <div class="imgBx">
+              <img src="assets/img6.jpg" alt="produto-6">
+            </div>
+            <div class="textBx">
+              <h3>Project 06</h3>
+            </div>
+          </div>
+          <div class="workBx">
+            <div class="imgBx">
+              <img src="assets/img7.jpg" alt="produto-7">
+            </div>
+            <div class="textBx">
+              <h3>Project 07</h3>
+            </div>
+          </div>
+          <div class="workBx">
+            <div class="imgBx">
+              <img src="assets/img8.jpg" alt="produto-8">
+            </div>
+            <div class="textBx">
+              <h3>Project 08</h3>
+            </div>
+          </div>
+          <div class="workBx">
+            <div class="imgBx">
+              <img src="assets/img9.jpg" alt="produto-9">
+            </div>
+            <div class="textBx">
+              <h3>Project 09</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- testimonials -->
+      <section class="testimonials adjust" id="testimonials">
+        <div class="title">
+          <h2>Testimonials</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+          <div class="testimonialsBox">
+            <div class="imgBx">
+              <img src="assets/user1.jpg" alt="user-1">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio expedita at vero minima cumque atque a
+              labore, magni pariatur officiis quisquam qui. Velit cupiditate doloribus quis labore ex illum dolorem!</p>
+            <h4>Someone Famouse<br><span>Website design</span></h4>
+          </div>
+          <div class="testimonialsBox">
+            <div class="imgBx">
+              <img src="assets/user2.jpg" alt="user-2">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio expedita at vero minima cumque atque a
+              labore, magni pariatur officiis quisquam qui. Velit cupiditate doloribus quis labore ex illum dolorem!</p>
+            <h4>Someone Famouse<br><span>Website design</span></h4>
+          </div>
+          <div class="testimonialsBox">
+            <div class="imgBx">
+              <img src="assets/user3.jpg" alt="user-3">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio expedita at vero minima cumque atque a
+              labore, magni pariatur officiis quisquam qui. Velit cupiditate doloribus quis labore ex illum dolorem!</p>
+            <h4>Someone Famouse<br><span>UX/UI design</span></h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="contact adjust" id="contact">
+        <div class="title">
+          <h2>Let's Say Hi</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="contactForm">
+          <div class="row">
+            <input type="text" 
+                   name="firstName" 
+                   id="firstName" 
+                   placeholder="First Name"
+            >
+            <input type="text" 
+                   name="lastName" 
+                   id="lastName"
+                   placeholder="Last Name"
+            >
+          </div>
+          <div class="row">
+            <input type="text" 
+                   name="email" 
+                   id="email" 
+                   placeholder="Email Address"
+            >
+            <input type="text" 
+                   name="mobile" 
+                   id="mobile"
+                   placeholder="Mobile No."
+            >
+          </div>
+          <div class="row2">
+            <textarea name="message" 
+                      id="message" 
+                      placeholder="Message"                                      
+            >
+            </textarea>
+          </div>
+          <div class="row2">
+            <input type="submit" value="Send">
+          </div>
+        </div>
+      </section>
+
+      <!-- footer text -->
+      <div class="footer_text">
+        <p>Feito com 
+          <i class="fa fa-heart" aria-hidden="true"></i>
+          por wsasouza | 2021       
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
